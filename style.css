@@ -1,4 +1,4 @@
-@import "../node_modules/bootstrap/scss/bootstrap";
+
 /* Style all input fields */
 input {
     width: 100%;
@@ -59,4 +59,66 @@ input {
     content: "&#10006;";
   }
 
-  
+  #top-bar {
+    background-color: #88DFFF;
+    position: fixed;
+    top: 0;
+    display: flex;
+    width: 100%;
+    padding: 5%;
+    height: 100px;
+    z-index: 1000;
+    justify-content: flex-end;
+    align-items: center;
+    right: 0%;
+  }
+
+  .top-bar-navigator {
+    margin: 5%;
+    position: relative;
+  }
+
+  #bottom-bar {
+    position: fixed;
+    bottom:0;
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    background-color: #88DFFF;
+    right: 0;
+    justify-content: space-between;
+  }
+
+  .contact {
+    padding: 5%;
+    top: 100px;
+  }
+
+  .contact-info {
+    display:flex;
+    padding: 3%;
+    border-bottom: solid 1px black;
+  }
+
+  .favourites-content {
+    padding: 5%;
+    top: 100px;
+  }
+
+  .user-information {
+    padding: 5%;
+    top: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .user-pfp {
+    border-radius: 50%;
+    width: 20%;
+    height: 20%;
+  }
+
+  .user-info {
+    margin-left: 10px;
+  }
