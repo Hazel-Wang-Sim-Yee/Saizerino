@@ -59,6 +59,9 @@ document.addEventListener("DOMContentLoaded", function () {
           
                 $.ajax(settings).done(function (response) {
                 console.log(response);
+                alert("Password has been reset successfully");
+                window.location.href = "SignIn.html";
+                
             });
         };
       };
