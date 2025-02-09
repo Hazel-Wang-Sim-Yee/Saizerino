@@ -57,3 +57,6 @@ All Icons (except karaoke):
 https://www.untitledui.com/free-icons
 Acknowledgements
 Inspiration for points system is from other companies like Starbucks that have similar systems.
+
+github link:
+https://github.com/Hazel-Wang-Sim-Yee/Saizerino.git
