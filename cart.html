@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<html lang="en">
+  <head>
+  <meta charset="utf-8">  
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div id="top-bar-with-back">
+            <div id="top-bar-left">
+                <svg width="18" height="30" viewBox="0 0 18 30" fill="none" xmlns="http://www.w3.org/2000/svg" onclick = "history.back()">
+                    <path d="M15.25 27.5L2.75 15L15.25 2.5" stroke="black" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>
+            <div id="top-bar-right">
+                <svg width="44" height="40" viewBox="0 0 44 40" fill="none" xmlns="http://www.w3.org/2000/svg" class="top-bar-navigator" onclick="document.location='favourites.html'">
+                    <path fill-rule="evenodd" clip-rule="evenodd" d="M21.9858 5.69961C17.8204 0.830004 10.8745 -0.479912 5.65559 3.97919C0.436741 8.4383 -0.297988 15.8938 3.80041 21.1675C7.20795 25.5523 17.5203 34.8002 20.9002 37.7933C21.2783 38.1283 21.4675 38.2956 21.6879 38.3615C21.8804 38.419 22.091 38.419 22.2835 38.3615C22.5039 38.2956 22.6931 38.1283 23.0712 37.7933C26.451 34.8002 36.7635 25.5523 40.171 21.1675C44.2694 15.8938 43.6244 8.3914 38.3158 3.97919C33.0073 -0.432996 26.151 0.830004 21.9858 5.69961Z" fill="black" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <svg width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.16663 1.16667H3.88779C4.40033 1.16667 4.65661 1.16667 4.86283 1.26092C5.04458 1.34398 5.19861 1.47755 5.30652 1.64573C5.42898 1.83655 5.46523 2.09026 5.53771 2.59763L6.52377 9.50001M6.52377 9.50001L8.71521 25.6071C8.99331 27.651 9.13236 28.6731 9.621 29.4423C10.0516 30.1202 10.6689 30.6592 11.3986 30.9946C12.2268 31.375 13.2582 31.375 15.321 31.375H33.15C35.1135 31.375 36.0954 31.375 36.8979 31.0217C37.6052 30.7102 38.212 30.2079 38.6506 29.5713C39.1477 28.8492 39.3314 27.8848 39.6989 25.9558L42.4564 11.4785C42.5858 10.7996 42.6504 10.4602 42.5566 10.1948C42.4745 9.96203 42.3123 9.76601 42.0989 9.64171C41.8558 9.50001 41.5104 9.50001 40.8191 9.50001H6.52377ZM17.8333 40.75C17.8333 41.9006 16.9005 42.8333 15.75 42.8333C14.5994 42.8333 13.6666 41.9006 13.6666 40.75C13.6666 39.5994 14.5994 38.6667 15.75 38.6667C16.9005 38.6667 17.8333 39.5994 17.8333 40.75ZM34.5 40.75C34.5 41.9006 33.5673 42.8333 32.4166 42.8333C31.266 42.8333 30.3333 41.9006 30.3333 40.75C30.3333 39.5994 31.266 38.6667 32.4166 38.6667C33.5673 38.6667 34.5 39.5994 34.5 40.75Z" fill="#008CBF"/>
+                    <path d="M1.16663 1.16667H3.88779C4.40033 1.16667 4.65661 1.16667 4.86283 1.26092C5.04458 1.34398 5.19861 1.47755 5.30652 1.64573C5.42898 1.83655 5.46523 2.09026 5.53771 2.59763L6.52377 9.50001M6.52377 9.50001L8.71521 25.6071C8.99331 27.651 9.13236 28.6731 9.621 29.4423C10.0516 30.1202 10.6689 30.6592 11.3986 30.9946C12.2268 31.375 13.2582 31.375 15.321 31.375H33.15C35.1135 31.375 36.0954 31.375 36.8979 31.0217C37.6052 30.7102 38.212 30.2079 38.6506 29.5713C39.1477 28.8492 39.3314 27.8848 39.6989 25.9558L42.4564 11.4785C42.5858 10.7996 42.6504 10.4602 42.5566 10.1948C42.4745 9.96203 42.3123 9.76601 42.0989 9.64171C41.8558 9.50001 41.5104 9.50001 40.8191 9.50001H6.52377ZM17.8333 40.75C17.8333 41.9006 16.9005 42.8333 15.75 42.8333C14.5994 42.8333 13.6666 41.9006 13.6666 40.75C13.6666 39.5994 14.5994 38.6667 15.75 38.6667C16.9005 38.6667 17.8333 39.5994 17.8333 40.75ZM34.5 40.75C34.5 41.9006 33.5673 42.8333 32.4166 42.8333C31.266 42.8333 30.3333 41.9006 30.3333 40.75C30.3333 39.5994 31.266 38.6667 32.4166 38.6667C33.5673 38.6667 34.5 39.5994 34.5 40.75Z" stroke="#008CBF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>                    
+            </div>                             
+        </div>
+    </div>
+
+    <div class="container">
+        <div class = "cart-page">
+            <h1>Your Cart</h1>
+            <div id="cart-items">
+                <script src="cartItems.js"></script>
+            </div>
+        </div>
+        <div class = "summary">
+            <h1>Summary</h1>
+            <p id="subtotal">Subtotal<span style="float:right">$</span></p>
+            <p>Estimated Delivery & Handling Fee<span style="float:right">Free</span></p>
+            <p id="total">Total<span style="float:right">$</span></p>
+        </div>
+        <div class="bottom-padding"></div>
+    </div>
+
+    <div class="container">
+        <button type="button" id = "proceed-to-checkout-button">Go to Checkout</button>
+    </div>
+</body>

@@ -11,11 +11,11 @@
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 
-<body>
+<body class="background">
 
 	<div class="container">
-		<h1>Sign Up</h1>
 		<div class="form" id="add-contact">
+      <h1>Sign Up</h1>
 			<form id="add-contact-form">
 				<div class="form-floating">
           <input type="text" id="contact-username" class="form-control" placeholder="Username" required>
@@ -29,7 +29,6 @@
             <input type="password" id="contact-pwd" class="form-control" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" placeholder="Password1" required>
             <label for="contact-pwd">Password</label>
           </div>
-
           <input type="submit" value="Send" class="btn btn-primary" id="contact-submit">
       </form>
     </div>

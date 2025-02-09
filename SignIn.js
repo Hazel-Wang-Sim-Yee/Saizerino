@@ -36,6 +36,10 @@ document.addEventListener("DOMContentLoaded", function () {
             for (var i = 0; i < response.length && i < 100; i++) {
                 if (response[i].email == contactEmail && response[i].password == contactPassword) {
                     console.log("Login successful");
+                    responsestring = JSON.stringify(response[i]);
+                    console.log(responsestring)
+                    localStorage.setItem("user-info", responsestring)
+                    window.location.replace("index.html");
                     break;
                 }
               }
